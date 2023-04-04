@@ -1,0 +1,44 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    height: 921px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color: hsl(244, 38%, 16%);
+    width: 65%;
+    height: 50%;
+}
+
+#card > img {
+    height: 100%;
+    float: right;
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-100deg) saturate(250%) contrast(0.75);
+}
+
+h1 {
+    display: inline-block;
+    color: white;
+    margin-left: 80px;
+    margin-top: 70px;
+    font-size: 250%;
+}
+
+span {
+    display: block;
+    color: white;
+    margin-left: 80px;
+    font-size: 125%;
+}
+
+#stats {
+    margin-top: 50px;
+    margin-left: 80px;
+    width: 30%;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+    font-size: 150%;
+}

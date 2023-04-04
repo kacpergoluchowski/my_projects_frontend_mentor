@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    font-family: Outfit;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    height: 921px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background-color:  hsl(216, 50%, 16%);
+    width: 400px;
+    height: 700px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 50%;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: white;
+    margin-left: 50px;
+    margin-top: 35px;
+    font-size: 145%;
+}
+
+span {
+    margin-left: 50px;
+    color: hsl(215, 51%, 70%);
+}
+
+#price {
+    display: inline;
+    width: 50%;
+    float: left;
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#date {
+    display: inline;
+    width: 50%;
+    float: left;
+    color: hsl(215, 51%, 70%);
+    margin-left: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 80%;
+    margin-top: 20px;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 20px;
+}
+
+span > img {
+    width: 12%;
+    vertical-align: middle;
+    border: solid hsl(215, 32%, 27%) 1px;
+    border-radius: 100%;
+}
+
+a {
+    color: white;
+}
+
+h3:hover, a:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
