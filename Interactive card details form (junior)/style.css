@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+:root {
+    --background1: hsl(249, 99%, 64%);
+    --background2: hsl(27,8 94%, 30%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Space Grotesk;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(green, lime);
+}
+
+#cards {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cards img {
+    height: 30vh;
+    width: 25vw;
+}
+
+img[id="sd"] {
+    margin-top: 0vh;
+}
+
+#form {
+    width: 50%;
+}
+
+input[id="cardholderName"], input[id="cardNumber"] {
+    width: 45%;
+    height: 3vh;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 125%;
+    padding-left: 15px;
+}
+
+input[id="MM"], input[id="YY"] {
+    width: 12.5%;
+    height: 3vh;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 125%;
+    padding-left: 15px;
+}
+
+input[id="CVC"] {
+    width: 10%;
+    height: 3vh;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 125%;
+    padding-left: 15px;
+    margin-left: 2vw;
+}
+
+#cardNumberCard {
+    position: relative;
+    top: -14vh;
+    font-size: 4vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+#cardholderNameCard {
+    position: relative;
+    top: -11vh;
+    right: 5vw;
+    font-size: 2vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+#date {
+    position: relative;
+    top: -13.5vh;
+    font-size: 2vh;
+    left: 7vw;
+    color: white;
+}
+
+#cvc {
+    position: relative;
+    bottom: 16.5vh;
+    left: 8vw;
+    color: white
+}
+
+button {
+    width: 23.5vw;
+    height: 5vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    border: solid black 1px
+}
